@@ -2,7 +2,6 @@
 /* TODO Make this more customized */
 
 import { useContext } from "react";
-
 import { UserContext } from "../contexts/UserContext";
 import { ThemeContext } from "../contexts/ThemeContext";
 import "./Nav.css";
