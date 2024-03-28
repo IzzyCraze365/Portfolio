@@ -3,16 +3,16 @@
 
 import { createContext, useState } from "react";
 
-export const UserContext = createContext();
+export const JohnContext = createContext();
 
-const UserProvider = ({ children }) => {
+const ProfilePage = ({ children }) => {
   const [userName, setUserName] = useState("Default Value");
 
   return (
-    <UserContext.Provider value={[userName, setUserName]}>
+    <JohnContext.Provider value={[userName, setUserName]}>
       {children}
-    </UserContext.Provider>
+    </JohnContext.Provider>
   );
 };
 
-export default UserProvider;
+export default ProfilePage;

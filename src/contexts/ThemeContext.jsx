@@ -2,9 +2,9 @@
 
 import { createContext, useState } from "react";
 
-export const ThemeContext = createContext();
+export const CoolChangingTheme = createContext();
 
-const ThemeProvider = ({ children }) => {
+const MyTheme = ({ children }) => {
   const [darkMode, setDarkMode] = useState(false);
 
   let theme = darkMode
@@ -20,10 +20,10 @@ const ThemeProvider = ({ children }) => {
       };
 
   return (
-    <ThemeContext.Provider value={[darkMode, setDarkMode, theme]}>
+    <CoolChangingTheme.Provider value={[darkMode, setDarkMode, theme]}>
       {children}
-    </ThemeContext.Provider>
+    </CoolChangingTheme.Provider>
   );
 };
 
-export default ThemeProvider;
+export default MyTheme;
