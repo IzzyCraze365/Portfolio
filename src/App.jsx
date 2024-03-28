@@ -22,8 +22,9 @@ function App() {
         </ProfilePage>
       </div>
       <div className="card">
+        <p>Click Me!</p>
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Count increases to {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
