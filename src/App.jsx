@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    {/* This needs to show up upon being deployed */}
       <div className="app">
         <h2>This is my Portfolio - In Progress</h2>
         <h3>John A. Isabella III</h3>
