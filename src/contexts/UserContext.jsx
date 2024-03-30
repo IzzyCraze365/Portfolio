@@ -9,9 +9,12 @@ const ProfilePage = ({ children }) => {
   const [userName, setUserName] = useState("Default Value");
 
   return (
+    <div>
+      <p>UserContext Mounted</p>
     <JohnContext.Provider value={[userName, setUserName]}>
       {children}
     </JohnContext.Provider>
+    </div>
   );
 };
 

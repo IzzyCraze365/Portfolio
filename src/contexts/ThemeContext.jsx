@@ -20,9 +20,12 @@ const MyTheme = ({ children }) => {
       };
 
   return (
+    <div>
+    <p>ThemeContext Mounted</p>
     <CoolChangingTheme.Provider value={[darkMode, setDarkMode, theme]}>
       {children}
     </CoolChangingTheme.Provider>
+    </div>
   );
 };
 
