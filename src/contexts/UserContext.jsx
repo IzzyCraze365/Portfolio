@@ -7,9 +7,10 @@ export const JohnContext = createContext();
 
 const ProfilePage = ({ children }) => {
   const [userName, setUserName] = useState("Default Value");
-
+  
   return (
     <div>
+      {/* This is not populating for some reason */}
       <p>UserContext Mounted</p>
     <JohnContext.Provider value={[userName, setUserName]}>
       {children}
