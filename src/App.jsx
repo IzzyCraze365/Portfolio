@@ -15,12 +15,12 @@ function App() {
       <div className="app">
         <h2>This is my Portfolio - In Progress</h2>
         <h3>John A. Isabella III</h3>
-   {/*      <ProfilePage>
+        <ProfilePage>
           <MyTheme>
-            <Nav />
+{/*             <Nav /> */}
             <User />
           </MyTheme>
-        </ProfilePage> */}
+        </ProfilePage>
       </div>
       <div className="card">
         <p>Click Me!</p>

@@ -1,9 +1,11 @@
 /* Nav Bar CSS */
 /* TODO Make this more customized */
 
+
 import { useContext } from "react";
-import { UserContext } from "../contexts/UserContext";
-import { ThemeContext } from "../contexts/ThemeContext";
+/* Have this match my App.jsx file names */
+import ProfilePage from "../contexts/UserContext";
+import MyTheme from "../contexts/ThemeContext";
 import "./Nav.css";
 
 const Nav = () => {
