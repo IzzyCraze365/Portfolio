@@ -5,7 +5,7 @@
 import { useContext } from "react";
 /* Have this match my App.jsx file names */
 import ProfilePage from "../contexts/UserContext"; /* TODO Imports for Components */
-import MyTheme from "../contexts/ThemeContext"; /* TODO Imports for Components */
+import MyTheme from "../contexts/ThemeContext"; /* TODO Imports for Components section */
 import "./Nav.css";
 
 const Nav = () => {
