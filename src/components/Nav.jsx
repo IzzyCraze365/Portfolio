@@ -1,5 +1,5 @@
 /* Nav Bar CSS */
-/* TODO Make this more customized */
+/* TODO Make this more customized featuring me */
 
 
 import { useContext } from "react";
